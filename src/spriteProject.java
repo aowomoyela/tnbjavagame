@@ -35,6 +35,7 @@ public class spriteProject extends JFrame implements KeyListener {
 		public void stop() {
 			running = false;
 			screen.restoreScreen();
+			System.exit(0);
 		}
 		
 		/*****************/
